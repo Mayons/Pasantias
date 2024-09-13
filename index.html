@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Proyecto Web</title>
+    <title>Página de Inicio del Programador</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,21 +13,23 @@
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="about.html">Acerca de</a></li>
                 <li><a href="contact.html">Contacto</a></li>
+                <li><a href="bitacora.html">Bitácora</a></li> <!-- Nueva pestaña Bitácora -->
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Bienvenidos al lado oscuro</h1>
-        <p>Este es un proyecto básico para comenzar a experimentar con HTML y CSS.</p>
-        <img src="images\logo.png" alt="Logo del Proyecto">
-        <section>
-            <h2>Galería de Imágenes</h2>
-            <img src="images\sample.jpeg" alt="Muestra de Imagen" class="responsive">
-        </section>
+    <main id="main-content">
+        <h1>Bienvenido al Diario del Programador</h1>
+        <p>Este es el contenido de la página principal. Utiliza el menú para navegar entre las diferentes secciones.</p>
+
+        <!-- Manteniendo las imágenes originales -->
+        <div class="images">
+            <img src="images/logo.png" alt="Logo" class="main-image">
+            <img src="images\sample.jpeg" alt="Otra Imagen" class="main-image">
+        </div>
     </main>
+
     <footer>
         <p>&copy; 2024 Mi Proyecto Web</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
