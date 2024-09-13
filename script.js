@@ -1,4 +1,4 @@
-// script.js
+// script.js nuevo comentario
 
 window.onload = function() {
     alert("¡Bienvenido a Mi Proyecto Web!");
